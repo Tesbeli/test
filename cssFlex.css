@@ -1,0 +1,19 @@
+.child {
+  background-color: rgb(255, 149, 0);
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent {
+  background-color: blue;
+  height: 80vh;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.child:hover {
+  background-color: aquamarine;
+}
